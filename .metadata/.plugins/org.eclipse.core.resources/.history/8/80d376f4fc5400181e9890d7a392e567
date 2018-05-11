@@ -1,0 +1,9 @@
+package demo;
+
+public class Student {
+
+	private int rno;
+	private String name;
+	private int marks;
+
+}

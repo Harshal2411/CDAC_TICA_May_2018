@@ -1,0 +1,21 @@
+package demo;
+
+public class Student {
+
+	private int rno;
+	private String name;
+	private int marks;
+
+	public Student(int rno, String name, int marks) {
+		super();
+		this.rno = rno;
+		this.name = name;
+		this.marks = marks;
+	}
+
+	@Override
+	public String toString() {
+		return this.rno + "\t" + this.name + "\t" + this.marks;
+	}
+
+}
